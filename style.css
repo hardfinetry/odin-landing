@@ -12,6 +12,13 @@
     color: #F9FAF8;
 }
 
+.header {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 20px;
+}
+
 .header,
 .hero,
 .footer {
@@ -20,6 +27,7 @@
 
 .header-logo {
     font-size: 24px;
+    margin-right: auto;
 }
 
 .header-link,
