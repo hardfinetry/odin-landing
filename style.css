@@ -12,17 +12,18 @@
     color: #F9FAF8;
 }
 
-.header {
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    padding: 20px;
-}
-
 .header,
 .hero,
 .footer {
     background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 10px;
+    padding: 20px 100px;
 }
 
 .header-logo {
@@ -36,9 +37,28 @@
     font-size: 18px;
 }
 
+.hero {
+    display: flex;
+    padding: 100px 100px;
+    gap: 50px;
+}
+
+.hero-left {
+    flex: 1;
+}
+
 .hero-left h1 {
     font-size: 48px;
     font-weight: 900;
+}
+
+.hero-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #e5e7eb63;
+    flex: 1;
 }
 
 button,
